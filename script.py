@@ -5,7 +5,7 @@ import numpy as np
 from scipy.stats import ttest_1samp
 from scipy.stats import binom_test
 
-print("This program evaluates heart disease data from a sample of patients treated at the Cleveland Clinic Foundation. The data was downloaded from the UCI Machine Learning Repository and cleaned for analysis my Codecademy curriculum authors. I performed the statistical calculations needed to describe some facets of the data.")
+print("This program evaluates heart disease data from a sample of patients treated at the Cleveland Clinic Foundation. The data was downloaded from the UCI Machine Learning Repository and cleaned for analysis by Codecademy curriculum authors. I performed the statistical calculations needed to describe some facets of the data.")
 
 # load data
 heart = pd.read_csv('heart_disease.csv')
